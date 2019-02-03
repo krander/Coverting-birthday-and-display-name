@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Project X</title>
+  <script>
+  </script>
+
+</head>
+
+<body>
+    <img src="..\images\sftwear.png" alt="">
+    <p><a href="..\home.html">Home</a></p>
+    <script>
+        var firstName = prompt("What is your first name?","")
+        var lastName = prompt("What is your last name?","")
+        document.writeln("Your name is " + lastName + ", " + firstName + ".")
+    </script>
+    <hr>
+</body>
+</html>
