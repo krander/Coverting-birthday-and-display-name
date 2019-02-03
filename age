@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Project X</title>
+  <script>
+  </script>
+
+</head>
+
+<body>
+    <img src="..\images\sftwear.png" alt="">
+    <p><a href="..\home.html">Home</a></p>
+    <script>
+        var userBirthday = prompt("When is your birthday?","mm/dd/yyy")
+        var userBirthdayAsDate = new Date(userBirthday)
+        var userBirthdayAsNumber = userBirthdayAsDate.getFullYear()
+        var currentDate = new Date()
+        var currentDateAsNumber = currentDate.getFullYear()
+        var approximateBirthdayNumber = currentDateAsNumber - userBirthdayAsNumber
+        document.writeln("Your age is " + approximateBirthdayNumber + ".")
+    </script>
+    <hr>
+</body>
+</html>
