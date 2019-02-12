@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
 <head>
-
-  <meta charset="UTF-8">
-  <title>Project X</title>
-  <script>
-  </script>
-
+    <meta charset="UTF-8">
+    <meta name="author" content="Katie Anderson">
+    <title>Converting Birthday to Approximate Age</title>
+    <link href="stylesheets/IT411b.css" rel="stylesheet">
+    <img src="../images/sftwear.png">
 </head>
 
 <body>
-    <img src="..\images\sftwear.png" alt="">
-    <p><a href="..\home.html">Home</a></p>
+    <h1>This web page will create the your age shirt</h1>
+
     <script>
         var userBirthday = prompt("When is your birthday?","mm/dd/yyy")
         var userBirthdayAsDate = new Date(userBirthday)
@@ -21,6 +21,7 @@
         var approximateBirthdayNumber = currentDateAsNumber - userBirthdayAsNumber
         document.writeln("Your age is " + approximateBirthdayNumber + ".")
     </script>
-    <hr>
+
 </body>
+
 </html>
