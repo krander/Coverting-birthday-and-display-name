@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Katie Anderson">
+    <title>Project 1.3 | KA</title>
+    <link href="stylesheets/IT411b.css" rel="stylesheet">
+    <img src="https://krander.github.io/Coverting-birthday-display-name-and-give-average/images/sftwear.png/">
+</head>
+
+<body>
+    <h1>Project 1.3</h1>
+    <p>We will display the average of the user's favorite number.</p>    
+        <script>
+            var numOne = prompt("What is your first favorite number?","")
+            var numOneNumber = Number(numOne)
+            var numTwo = prompt("What is your second favorite number?","")
+            var numTwoNumber = Number (numTwo)
+            var numThree = prompt("What is your third favorite number?","")
+            var numThreeNumber = Number (numThree)
+            var average = (numOneNumber + numTwoNumber + numThreeNumber) / 3
+            document.writeln("The average of your three favorite numbers is " + average + ".")
+        </script>
+</body>
+
+</html>
