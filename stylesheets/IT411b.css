@@ -14,6 +14,32 @@ body {
     background-color: RGB(255, 255, 255);
 }
 
+nav {
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  border-style: solid;
+  border-color: RGB(220, 220, 220);
+  border-width: 1px;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  border-radius: 50px;
+}
+
+nav li:nth-child(1) {
+  margin-left: -2.5em;
+}
+
+nav li:nth-child(2) {
+  margin-left: 1em;
+}
+
 h1 {
   color: RGB(38, 50, 56);
   font-weight: 900;
@@ -42,7 +68,7 @@ li {
 
 a:link {
   text-decoration: none;
-  color: RGB(120, 144, 156);
+  color: RGB(38, 50, 56);
 }
 
 a:hover {
@@ -52,7 +78,7 @@ a:hover {
 
 a:visited {
   text-decoration: none;
-  color: RBG(30, 136, 229);
+  color: RBG(38, 50, 56);
 }
 
 a:active {
