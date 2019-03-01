@@ -1,8 +1,50 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: RGB(220, 220, 220);
+}
+
 body {
-  font-family: Georgia;
-  background-color: linen;
+    width: 60em;
+    margin: auto;
+    margin-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.1em;
+    padding-bottom: 1.5em;
+    background-color: RGB(255, 255, 255);
 }
 
 h1 {
-  font-family: Century Gothic;
-}  
+  color: RGB(38, 50, 56);
+}
+
+h2 {
+  margin-top: -0.75em;
+  margin-bottom: 2.5em;
+  color: RGB(207, 216, 220);
+}
+
+h3 {
+  color: RGB(120, 144, 156);
+}
+
+p {
+  color: RGB(38, 50, 56);
+  padding-bottom: 1em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
