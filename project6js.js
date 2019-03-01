@@ -14,4 +14,4 @@
 
     var multiply = total_product *= product * (-1);
     document.write("<p>Your numbers are " + numbers.join(", ") + "</p>");
-    document.write("<p>The product of your favorite numbers is " + multiply + ".</p>");
+    document.write("<p>The product of these numbers is " + multiply + ".</p>");
