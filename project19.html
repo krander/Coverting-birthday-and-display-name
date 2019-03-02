@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Katie Anderson">
+    <title>Project 6</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Katie Anderson">
+    <title>Project 19 | KA</title>
+    <link href="stylesheets/IT411b.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="project19js.js"></script>
+    <style>
+        label.error {
+            color: #A93226;
+            font-size: 0.9em;
+            font-weight: italic;
+            text-align: center;
+        }
+        input {
+            border: 0.05em solid #D5DBDB;
+            border-radius: 0.35em;
+            padding-left: 0.25em;
+            margin-top: 0.5em;
+            padding: 0.45em;
+        }
+        [type="text"] {
+            color: #D5DBDB;
+        }
+        input.error {
+            background: #EC7063;
+        }
+        #signup {
+            background-color: #E5E7E9;
+            border-radius: 0.35em;
+            margin: 1em;
+            padding: 2.5em;
+        }
+        #submitme {
+            font-family: Tahoma;
+            background-color: #808B96;
+            font-size: 0.95em;
+            color: white;
+            border: none;
+            border-radius: 0.35em;
+            margin: 0.5em;
+            padding: 0.5em;
+        }
+        #result {
+            text-align: left;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://krander.github.io/Javascript-and-jquery-exercises/">&#8592;</a></li>
+            <li><a href="https://k80anderson.com/">Portfolio</a></li>
+            <li><a href="https://github.com/krander">GitHub</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Project 19</h1>
+    <p>We will verify that user input fields are not blank upon submission.</p> 
+
+    <p>Your information:</p>
+    <form id="signup" action="sampleactionOne.html">
+        <label for="getinput" class="label">First / Last Name:</label>
+        <input type="text" value="Please type your full name" name="getinput" id="getinput"> <br/>
+        <label for="getinput1" class="label">Location:</label>
+        <input type="text" value="Please enter your city" name="getinput1" id="getinput1"> <br/>
+        <label for="getinput2" class="label">Age:</label>
+        <input type="text" value="Please enter your age" name="getinput2" id="getinput2"> <br/>
+
+        <input type='submit' value='Submit' name="submit" id='submitme'>
+
+    </form>
+    <p id="result"></p>
+</body>
+</html>
